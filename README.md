@@ -2,6 +2,12 @@
 
 Projeto desenvolvido em **Java** para a **Global Solution 2026 — POO (Programação Orientada a Objetos)**.
 
+##  Equipe
+
+- Luiz Claro Lima - RM 563014
+
+- Gabriel Nacarelli Pinheiro - RM 565298
+
 ##  Sobre o projeto
 
 A Plataforma de Monitoramento Espacial é uma aplicação de console que simula o controle de uma
@@ -35,19 +41,30 @@ src/
 ##  Como executar
 
 ### Pré-requisitos
-- **JDK 17** ou superior instalado
-- **IntelliJ IDEA** (ou outra IDE Java) ou apenas o terminal
+- **JDK 17** ou superior instalado e configurado
+- Uma IDE Java de sua preferência (Eclipse, IntelliJ IDEA, VS Code, NetBeans) **ou** apenas o terminal
 
-### Pelo IntelliJ IDEA (recomendado)
+### Passo geral (qualquer IDE)
 1. Clone o repositório:
-   ```bash
+```bash
    git clone https://github.com/LuizC777/GLOBAL-SOLUTIONS1-JAVA.git
-   ```
-2. Abra a pasta do projeto no IntelliJ IDEA.
-3. Abra o arquivo `src/SistemaMonitoramento.java`.
-4. Clique no botão ▶ (Run) ao lado do método `main` ou pressione `Shift + F10`.
+```
+2. Importe ou abra o projeto na sua IDE.
+3. Localize a classe principal `SistemaMonitoramento.java` (é a que contém o método `main`).
+4. Execute essa classe. O menu interativo será iniciado no console.
 
-### Pelo terminal
+### Eclipse IDE
+1. Clone o repositório (comando acima) em uma pasta de sua escolha.
+2. No Eclipse, vá em **File → New → Java Project**, dê um nome ao projeto e clique em **Finish**.
+3. Copie os arquivos `.java` da pasta `src` do repositório para dentro da pasta `src` do projeto criado (arraste e solte ou use copiar/colar).
+4. Abra a classe `SistemaMonitoramento.java` no editor.
+5. Clique com o botão direito sobre ela e selecione **Run As → Java Application**
+   (ou use o atalho `Ctrl + F11`).
+
+> Como todas as classes estão no pacote padrão (sem `package`), elas precisam ficar juntas
+> na mesma pasta `src` para o projeto compilar corretamente.
+
+### Pelo terminal (sem IDE)
 A partir da pasta `src`:
 ```bash
 javac *.java
@@ -125,10 +142,3 @@ dados gerais da missão (combustível, trajetória e tripulantes).
 
 ---
 
-##  Autores
-
-Projeto acadêmico desenvolvido para a disciplina de Programação Orientada a Objetos.
-
-- Luiz Claro Lima - RM 563014
-
-- Gabriel Nacarelli Pinheiro - RM 565298
